@@ -1,0 +1,195 @@
+
+
+
+h1
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+a
+{
+    font-size: 0.9rem;
+}
+
+.header{
+
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+.inner{
+    background-color: rgba(214, 46, 51 , 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.list{
+
+    position: fixed;
+    background-color:rgb(65,70,88);
+    top: 0;
+    bottom: 0;
+    width: 15rem;
+    left: -240px;
+    z-index: 1111111111111111111111;
+    
+}
+
+.item{
+
+    top: 400px;
+    left: 0;
+    font-size:30px;
+    cursor:pointer;
+    color: white;
+   
+}
+
+.closebtn{
+
+    top: 0px;
+    right: 20px;
+    
+}
+.list a{
+
+    padding: 20px;
+    margin-left: 20px;
+}
+.list-item{
+    margin-top: 60px;
+}
+
+a{
+
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    
+    display: block;
+    transition: 0.3s;
+    color: white;
+    font-weight: bold;
+
+}
+a:hover{
+
+    
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(123,65,85);
+        display: block;
+    transition: 0.3s;
+    
+
+}
+
+
+.list i{
+    cursor: pointer;
+    color: white;
+    font-size: 25;
+    
+}
+.singer{
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+.singer h3{
+    font-size:24px;
+    font-weight: bold;
+}
+
+.text-singer{
+
+    background-color: rgb(204, 204, 204);
+   
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.singer-item{
+    display: none;
+}
+
+/* .fab{
+
+
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border: 1px black solid;
+    text-align: center;
+    padding-top: 13px;
+} */
+
+.fab{
+
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 42px; 
+    cursor: pointer;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(153, 153, 153);
+}
+.fab:hover{
+    color: white;
+    border: none;
+    background-color: rgb(214, 46, 51);
+
+}
+
+textarea{
+    resize: none;
+}
+.btn{
+
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#char {
+    font-size: 20px;
+    color: #D62E33;
+}
+
+.bg-img{
+
+    background-image: url(../images/invitation-2508607__340.jpg);
+    height: 35vh;
+    width: 100%;
+    background-size: 100% 100%;
+    
+}
+.inner{
+
+    background-color: rgba(214, 46, 51 , 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.tim {
+    padding: 50px;
+    border: 1px solid #FFF;
+}
+
+.tim h3{
+
+    color: white;
+    text-align: center;
+}
